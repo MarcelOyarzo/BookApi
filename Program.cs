@@ -1,5 +1,5 @@
 using BookApi.Data;
-using BookApi.Models;  // ← lägg till denna rad
+using BookApi.Models;  
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -107,6 +107,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 
 app.UseAuthentication();

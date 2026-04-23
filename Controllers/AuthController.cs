@@ -21,7 +21,7 @@ public class AuthController : ControllerBase
         _config = config;
     }
 
-    // 🔐 REGISTER
+    // REGISTER
     [HttpPost("register")]
     public IActionResult Register(User user)
     {
@@ -36,7 +36,7 @@ public class AuthController : ControllerBase
         return Ok(new { message = "User created" });
     }
 
-    // 🔑 LOGIN
+    //  LOGIN
     [HttpPost("login")]
     public IActionResult Login(User login)
     {
@@ -53,7 +53,7 @@ public class AuthController : ControllerBase
         return Ok(new { token });
     }
 
-    // 🎟️ JWT TOKEN
+    //  JWT TOKEN
     private string CreateToken(User user)
     {
         var claims = new[]

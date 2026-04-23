@@ -154,3 +154,4 @@ C:\Users\lolfa\Desktop\BokApi\BookApi\bin\Debug\net9.0\Microsoft.IdentityModel.P
 C:\Users\lolfa\Desktop\BokApi\BookApi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\lolfa\Desktop\BokApi\BookApi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\lolfa\Desktop\BokApi\BookApi\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\lolfa\Desktop\BokApi\BookApi\obj\Debug\net9.0\BookApi.sourcelink.json
