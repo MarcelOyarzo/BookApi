@@ -15,9 +15,12 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngular",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200")
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
+            policy.WithOrigins(
+                "http://localhost:4200",
+                "https://earnest-queijadas-0317d8.netlify.app"  // ← din Netlify-URL
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
         });
 });
 
